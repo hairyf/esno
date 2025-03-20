@@ -1,5 +1,5 @@
 {
-  "name": "esno",
+  "name": "esrun",
   "packageManager": "pnpm@9.11.0",
   "description": "Node.js runtime enhanced with esbuild for loading TypeScript & ESM",
   "version": "4.8.0",
@@ -7,21 +7,21 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/esno.git"
+    "url": "git+https://github.com/antfu/esrun.git"
   },
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "scripts": {
-    "test": "node esno.js test/*.*",
+    "test": "node esrun.js test/*.*",
     "release": "bumpp && tsx publish.ts"
   },
   "dependencies": {
     "tsx": "^4.19.1"
   },
   "bin": {
-    "esno": "esno.js"
+    "esrun": "esrun.js"
   },
   "files": [
-    "esno.js"
+    "esrun.js"
   ],
   "devDependencies": {
     "bumpp": "^9.6.1",

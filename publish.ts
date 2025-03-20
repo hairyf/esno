@@ -11,9 +11,9 @@ await save()
 console.log('> publish esmo v' + pkg.version)
 await $`npm publish`
 
-pkg.name = 'esno'
+pkg.name = 'esrun'
 await save()
 
-console.log('> publish esno v' + pkg.version)
+console.log('> publish esrun v' + pkg.version)
 await $`npm publish`
 
